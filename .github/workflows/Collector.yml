@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   
   schedule:
-    - cron: "0 */5 * * *"
+    - cron: '0 2 * * *'   # هر روز ساعت 02:00 UTC
 
 jobs:
   build:
